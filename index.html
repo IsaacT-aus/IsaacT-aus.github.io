@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1 id="myH">Welcome to My Page</h1>
+    <h2>Isaac</h2>
+    <p>Welcome to my first webpage.</p>
+    <p>Login your Visa Account</p>
+    <img src="youtube.png" alt="Youtube">
+    <p></p>
+    <a href="https://www.youtube.com">Visit my favorite website</a>
+    <h2>My hobbies</h1>
+    <ul>  
+      <li>Playing game</li>
+      <li>Watch Youtube video</li>
+    </ul>
+    <a href="porject_1.html">
+      <button>Tom and Jerry</button>
+    </a>
+    <a href="porject_2.html">
+      <button>Minecraft</button>
+    </a>
+    <a href="porject_3.html">
+      <button>Science Fair</button>
+    </a>
+    <a href="script.js">
+      <button onclick="showMessage()">Click Me</button>
+    </a>
+    <h2> Feel Free to change the Background colour or the heading size and Color</h2>
+    <a href="script.js">
+      <button onclick="changeBgColor()">Click Me</button>
+    </a>
+    <p></p>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="displayGreeting()">Submit</button>
+    <p id="greeting"></p>
+    <input type="text" id="colorInput" placeholder="Enter your favorite color">
+    <button onclick="changeBgColorUser()">Change Background</button>
+    <p></p>
+    <input type="text" id="sizeInput" placeholder="Enter the size for the heading">
+    <button onclick="changeheadingsize()">Change Heading Size</button>
+    <p></p>
+    <input type="text" id="headingcolorInput" placeholder="Heading color">
+    <button onclick="changeheadingcolor()">Change Heading Color</button>
+    <p></p>
+    <p>Age Checker</p>
+    <input type="text" id="ageInput" placeholder="Your age">
+    <button onclick="checkAge()">Check Age</button>
+    <p></p>
+    <img id="dogimg" src="cutedog.jpg" onclick="favorite()" ondblclick="unfavorite()">
+    <p id="likeordislike"></p>
+  </body>
+</html> 
